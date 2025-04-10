@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Application Mobile VALAP - Portfolio Clément Pannecoucke</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <span></span>
+        <ul class="nav-links">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="#projets">Projets</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="project-detail">
+    <div class="container">
+      <a href="index.html" class="back-link">
+        <span class="arrow-left">←</span> Retour à l'accueil
+      </a>
+
+      <div class="project-content">
+        <div>
+          <h1>Application Web</h1>
+          <div class="badge-container">
+            <span class="badge">.NET MAUI</span>
+            <span class="badge">XAML</span>
+            <span class="badge">C#</span>
+          </div>
+          <div class="project-image">
+            <img src="images/logo-valap.jpg" alt="Application Web">
+          </div>
+        </div>
+
+        <div class="project-section">
+          <p>
+            Aucune image de ce projet ne peut être dévoilée pour l'instant car l'application n'est pas encore téléchargeable
+          </p>
+          <br>
+          <h2>Description du projet</h2>
+          <p>
+            Cette application mobile complète a été développée pour répondre aux besoins de mon entreprise de vente de vins et de spiritueux.
+            Elle permet aux utilisateurs de créer un compte, de commander du vin, de parrainer d'autres clients, etc...
+          </p>
+          <p>
+            Mon travail était de développer des pages de cette application en les liants au BackEnd développé par mes collègues.
+            J'ai eu l'occasion par exemple de m'occuper de toute la partie de connexion et d'inscription des utilisateurs, du changement de langue et de zone de livraison,
+            du parrainage, de la création et de la modification des adresses de livraison et de facturation.
+          </p>
+        </div>
+
+        <div class="project-section">
+          <h2>Fonctionnalités apportées</h2>
+          <ul>
+            <li>Authentification des utilisateurs</li>
+            <li>Changement de langue et de zone de livraison</li>
+            <li>Parrainage</li>
+            <li>Lister les bons d'achats</li>
+            <li>Lister les adresses de livraison et de facturation du client</li>
+            <li>Ajouter et editer ces dites adresses</li>
+            <li>Afficher l'historique des bouteilles achetés par le client afin qu'il puisse revoir les fiches techniques associées</li>
+          </ul>
+        </div>
+
+        <div class="project-section">
+          <h2>Défis techniques</h2>
+          <p>
+            L'un des principaux défis de ce projet était l'adaptation à un nouveau language cependant ce défi fut relevé avec le temps.
+            J'ai également appris à bien factoriser mon code et à bien réfléchir à comment faire les choses avant de les faire ce qui évite des problèmes
+          </p>
+          <p>
+            La gestion de la langue de l'application et des zones de livraison fût également un défi puisque celle-ci impactait toute l'application, il ne fallait donc permettre aucune régression.
+            Toute la partie du hub compte également fût un défi car cette partie se découpe en plein de Fonctionnalités avec chacune des spécifications cependant la factorisation des pages permettait une meilleur gestion de tout ceci.
+          </p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-info">
+          <p class="footer-name">Clément Pannecoucke</p>
+          <p class="footer-description">Portfolio d'étudiant en informatique</p>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        © <span id="current-year"></span> Clément Pannecoucke. Tous droits réservés.
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

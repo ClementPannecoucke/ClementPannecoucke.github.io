@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jeu Vidéo - Portfolio Jean Dupont</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <span></span>
+        <ul class="nav-links">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="#projets">Projets</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="project-detail">
+    <div class="container">
+      <a href="index.html" class="back-link">
+        <span class="arrow-left">←</span> Retour à l'accueil
+      </a>
+
+      <div class="project-content">
+        <div>
+          <h1>Jeu Vidéo</h1>
+          <div class="badge-container">
+            <span class="badge">Unity</span>
+            <span class="badge">C#</span>
+            <span class="badge">2D</span>
+            <span class="badge">Platformer</span>
+            <span class="badge">Procedural Generation</span>
+          </div>
+          <div class="project-image">
+            <img src="https://via.placeholder.com/1200x600" alt="Jeu Vidéo">
+          </div>
+        </div>
+
+        <div class="project-section">
+          <h2>Description du projet</h2>
+          <p>
+            Ce jeu de plateforme 2D a été développé avec Unity et C#. Il s'agit d'un jeu d'aventure où le joueur
+            contrôle un personnage qui doit traverser des niveaux générés procéduralement, collecter des objets et
+            éviter des obstacles.
+          </p>
+          <p>
+            Le jeu présente une mécanique unique où le joueur peut manipuler certains éléments de l'environnement pour
+            créer des passages ou résoudre des énigmes.
+          </p>
+        </div>
+
+        <div class="project-section">
+          <h2>Fonctionnalités principales</h2>
+          <ul>
+            <li>Génération procédurale de niveaux</li>
+            <li>Système de physique réaliste</li>
+            <li>Mécaniques de jeu innovantes</li>
+            <li>Système de progression et de déblocage de compétences</li>
+            <li>Effets visuels et sonores immersifs</li>
+            <li>Support pour manette et clavier/souris</li>
+          </ul>
+        </div>
+
+        <div class="project-section">
+          <h2>Défis techniques</h2>
+          <p>
+            La génération procédurale des niveaux a été l'un des aspects les plus complexes du développement. J'ai
+            implémenté un algorithme qui crée des niveaux jouables et équilibrés tout en maintenant une variété
+            suffisante pour garder l'intérêt du joueur.
+          </p>
+          <p>
+            L'optimisation des performances a également été un défi important, en particulier pour garantir que le jeu
+            fonctionne bien sur des appareils de différentes puissances.
+          </p>
+        </div>
+
+        <div class="project-links">
+          <a href="#" class="btn btn-primary">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon></svg>
+            Voir la démo
+          </a>
+          <a href="#" class="btn btn-outline">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+            Code source
+          </a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-info">
+          <p class="footer-name">Clément Pannecoucke</p>
+          <p class="footer-description">Portfolio d'étudiant en informatique</p>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        © <span id="current-year"></span> Clément Pannecoucke. Tous droits réservés.
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

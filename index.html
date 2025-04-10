@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Clément Pannecoucke</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <span></span>
+        <ul class="nav-links">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="#projets">Projets</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="profile">
+          <div class="profile-image">
+            <img src="images/photo-profil.jpg" alt="Photo de profil">
+          </div>
+          <div class="profile-content">
+            <h1>Clément Pannecoucke</h1>
+            <h2>Développeur Mobile</h2>
+            <p>
+              Actuellement dans ma troisième année d'étude à l'Université Claude Bernard Lyon 1 au site de Bourg-en-Bresse, je souhaite m'orienter dans le développement mobile Android et iOS.
+              Durant ces trois années j'ai pu expérimenter plusieurs languages et framework de développement mobile comme le Kotlin, le Java, le .NET MAUI et le Flutter.
+              <br>
+              <br>
+              Vous trouverez donc dans ce portfolio trois de mes projets, mon projet d'alternance de troisième année en .NET MAUI ainsi qu'un projet universitaire en Flutter et un projet universitaire sous Unity qui est un jeu mobile.
+
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="projets">
+      <div class="container">
+        <h2 class="section-title">Mes Projets</h2>
+
+        <div class="project-grid">
+          <div class="card">
+            <div class="card-image">
+              <img src="images/logo-valap.jpg" alt="Application Mobile VALAP">
+            </div>
+            <div class="card-header">
+              <h3>Application Mobile VALAP</h3>
+              <p class="card-subtitle">.NET MAUI, C#, XAML</p>
+            </div>
+            <div class="card-content">
+              <p>
+                Une application mobile de vente privée de vins et de spiritueux de l'entreprise ventealapropriete.com (VALAP).
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="projet-application-valap.html" class="btn-link">
+                Voir le projet <span class="arrow-right">→</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Projet 2 -->
+          <div class="card">
+            <div class="card-image">
+              <img src="https://via.placeholder.com/400x200" alt="Jeu Vidéo">
+            </div>
+            <div class="card-header">
+              <h3>Jeu Vidéo</h3>
+              <p class="card-subtitle">Unity, C#</p>
+            </div>
+            <div class="card-content">
+              <p>
+                Un jeu de plateforme 2D avec des mécaniques innovantes et des niveaux générés procéduralement.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="projet-jeu-video.html" class="btn-link">
+                Voir le projet <span class="arrow-right">→</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Projet 3 -->
+          <div class="card">
+            <div class="card-image">
+              <img src="https://via.placeholder.com/400x200" alt="Intelligence Artificielle">
+            </div>
+            <div class="card-header">
+              <h3>Intelligence Artificielle</h3>
+              <p class="card-subtitle">Python, TensorFlow</p>
+            </div>
+            <div class="card-content">
+              <p>
+                Un système de reconnaissance d'images utilisant des réseaux de neurones convolutifs pour classifier
+                des objets.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="projet-intelligence-artificielle.html" class="btn-link">
+                Voir le projet <span class="arrow-right">→</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-info">
+          <p class="footer-name">Clément Pannecoucke</p>
+          <p class="footer-description">Portfolio d'étudiant en informatique</p>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        © <span id="current-year"></span> Clément Pannecoucke. Tous droits réservés.
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
